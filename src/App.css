@@ -1,0 +1,36 @@
+.App{
+  background:url("../src/components/pokemon/pokemon.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  padding-top: 4rem;
+  min-height: 100vh;
+}
+.navbar{
+  background-color: #1aadcb9e !important;
+      
+}
+
+#ntxt{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3em;
+  letter-spacing: 2px;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: modo 10s infinite linear;
+
+}
+
+@-webkit-keyframes modo
+{
+  from{
+    -webkit-filter: modo-rotate(0deg);
+    
+  }
+  to{
+    -webkit-filter: modo-rotate(-360deg);
+  }
+}
